@@ -3,13 +3,16 @@ channels:
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
-  - _tflow_select=2.3.0=mkl
+  - _tflow_select=2.1.0=gpu
   - absl-py=0.8.1=py37_0
   - astor=0.8.0=py37_0
   - blas=1.0=mkl
   - c-ares=1.15.0=h7b6447c_1001
-  - ca-certificates=2019.11.27=0
+  - ca-certificates=2020.1.1=0
   - certifi=2019.11.28=py37_0
+  - cudatoolkit=10.0.130=0
+  - cudnn=7.6.5=cuda10.0_0
+  - cupti=10.0.130=0
   - freetype=2.9.1=h8a8886c_1
   - gast=0.2.2=py37_0
   - google-pasta=0.1.8=py_0
@@ -38,7 +41,7 @@ dependencies:
   - numpy=1.18.1=py37h4f9e942_0
   - numpy-base=1.18.1=py37hde5b4d6_0
   - olefile=0.46=py37_0
-  - openssl=1.1.1d=h7b6447c_3
+  - openssl=1.1.1d=h7b6447c_4
   - opt_einsum=3.1.0=py_0
   - pillow=7.0.0=py37hb39fc2d_0
   - pip=19.3.1=py37_0
@@ -50,9 +53,10 @@ dependencies:
   - six=1.13.0=py37_0
   - sqlite=3.30.1=h7b6447c_0
   - tensorboard=1.15.0=pyhb230dea_0
-  - tensorflow=1.15.0=mkl_py37h28c19af_0
-  - tensorflow-base=1.15.0=mkl_py37he1670d9_0
+  - tensorflow=1.15.0=gpu_py37h0f0df58_0
+  - tensorflow-base=1.15.0=gpu_py37h9dcbed7_0
   - tensorflow-estimator=1.15.1=pyh2649769_0
+  - tensorflow-gpu=1.15.0=h0d30ee6_0
   - termcolor=1.1.0=py37_1
   - tk=8.6.8=hbc83047_0
   - webencodings=0.5.1=py37_1
